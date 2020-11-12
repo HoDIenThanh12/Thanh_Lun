@@ -1,0 +1,54 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+.body_MH {
+    padding: 20px;
+    width: 1304px;  
+    border: 2px solid#ff0000;
+    background-color: aliceblue;
+}
+div > section{
+    
+    display: table-cell;
+    vertical-align: top;
+}
+/*.nd_SP {
+    float:left;
+    background-color: #ffffff;
+    text-align: center;
+    width: 200px;  
+    margin:20px;
+}
+.nd_chu_SP {
+   
+    font-size: 13px;
+    margin-left:7px;
+    text-align: center;
+    width: 180px;
+}
+td{
+    font-size:10px;
+}
+*/
+.anh_chon_mua {
+    cursor: pointer;
+    margin-top: 5px;
+    height: 50px;
+    width: 130px;
+}
+.ds_MH{
+    margin-left:40px;
+}
+.so_luong {
+    color: #ff0000;
+}
+.anh_chonmua {
+    cursor: pointer;
+}
+.sl_CSDL{
+    color:#ff0000;
+}
+.anh_SP_CSDl {
+    
+}

@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NguoiDung.master.cs" Inherits="Phong_Gym.NguoiDung" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+     
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+        <link href="style/mnu1.css" rel="stylesheet" />
+        <link href="style/MenuMasterpage.css" rel="stylesheet" />
+   <header>
+        <div id="menu" >
+            <img src="image/logoHeader.png" class="logo"/>
+    <ul>
+    <li><a href="TrangChu6.aspx">Trang chủ</a></li>
+    <li><a href="#">Bài tập &darr;</a>
+    	<ul class="sub-menu">
+        	
+            <li><a href="CoMong.aspx">Tập cơ mông</a></li>
+            <li><a href="Co_Vai.aspx">Tập cơ vai</a></li>
+            
+            <li><a href="#">Tập cơ chân</a></li>
+            <li><a href="#">Tập cơ bụng</a></li>
+            
+        </ul>
+    </li>
+    <li><a href="MatHang.aspx">Thực phẩm bổ sung</a></li>    
+    
+    <li><a href="#">Giới Thiệu & Liên Hệ &darr;</a>
+    	<ul class="sub-menu">
+            <li><a href="GioiThieu.aspx">Giới Thiệu</a></li>
+            <li><a href="#">Liên Hệ</a></li>
+         </ul> 
+     </li>
+        <li><a href="#">Hóa đơn & thông tin &darr;</a>
+    	<ul class="sub-menu">
+            <li><a href="GioiThieu.aspx">Hóa đơn</a></li>
+            <li><a href="ThongTinKhachHang.aspx">Thông tin cá nhân</a></li>
+         </ul> 
+     </li>
+  
+  </ul>
+       
+     <div class="nl">
+         <img src="image/dangnhap.jpg" class="imDangNhap" width="50" height="20"/>
+         <a data-toggle="modal" data-target="#cong" class="dnp" href="DangNhap.aspx"><u>
+             <asp:Label ID="Label1" runat="server" Text="Đăng nhập"></asp:Label></u> </a>    
+      </div>
+
+</div>
+</header>
+        <!--phan than-->
+<div class="than">
+    <asp:ContentPlaceHolder ID="head" runat="server">  
+        
+    </asp:ContentPlaceHolder>
+</div>
+        <!--chan day trang web-->
+<link href="style/css_chan.css" rel="stylesheet" />
+	<div class="container1"> 
+        <div class="row">          
+          <div class="hh">
+                <div class="logo_chuyen" >
+                	<a href="#" class="fb" target="_blank"><img src="image/logo_day/lg_face.png" width="65" height="56"/></a>
+                    <a href="#" class="yt" target="_blank"><img src="image/logo_day/lg_ytb1.png" width="82" height="56"/></a>
+                    <a href="#" class="in" target="_blank"><img src="image/logo_day/lg_gm3.png" width="60" height="56"/></a>
+                    <a href="#" class="in" target="_blank"><img src="image/logo_day/lg_itgr.png" width="75" height="66"/></a>
+                  </div>
+                
+            <div class="CS_TD">
+                     <a href="#">Chính sách bảo mật</a> |<a href="#">Tuyển dụng </a>                  
+                </div>
+                <div class="dgc"></div>
+              <br />
+            </div>
+		</div>
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-lg-3">				
+            </div>
+            <div class="DC1">
+                  <p class="nd"><span class="DC">CÔNG TY TNHH THE GYM</span><br>
+                        Địa chỉ:  621 Hoàng Sa, Quận 3, TP.HCM<br>
+                        Điện thoại:  (028) 7303 2424   |    Email:  info@thegym.vn<br>
+                        MST: 0310916057 - Cấp ngày 11/06/2011<br>
+                        Nơi cấp: Sở Kế Hoạch Và  Đầu Tư Thành Phố Hồ Chí Minh<br />
+                        </p>            
+             </div>
+
+            <div class="dgc1"></div>
+        </div>
+        
+        <div class="bocongthuong">
+                <a href="" target="_blank"><img class="" src="http://fit24.vn/static/images/bo-cong-thuong.png" alt=""></a>
+            </div>
+        <img src="image/logo_day/qc6.png" class="lg_d" />
+        <div class="copyright row">
+           <p align="center">© 2020 - Bản quyền thuộc THE GYM</p> </div>
+    </div>
+    </form>
+</body>
+</html>

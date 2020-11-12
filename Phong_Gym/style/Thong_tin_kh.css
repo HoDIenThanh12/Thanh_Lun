@@ -1,0 +1,98 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+.nd_KH {
+    height:680px;
+    margin:0px auto; 
+    width:1200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+section,aside{
+    display:table-cell;
+    vertical-align:top;
+}
+section{
+
+    float:left;
+    width:800px;
+    padding:30px;
+    border:2px solid#b6ff00;
+    
+}
+aside{
+   
+    height:620px;
+    width:600px;  
+    border:2px solid#ff6a00;
+}
+fieldset {
+    font-size:20px;
+    width:600px;
+    margin:10px 80px;
+    padding:20px;
+    
+}
+table{
+    margin-left:50px;
+}
+table,tr,td{
+    font-size:20px;
+    padding:5px;
+    text-align: left;
+}
+.ten_kh {
+    margin-left:40px;
+    text-align: center;
+}
+
+.TTCB {
+    font-size: 20px;
+}
+.dr_Ns{
+    height:10px;
+}
+/*anh tk va cay but*/
+.anh_tk{
+    border:2px solid#ff6a00;
+    width:200px;
+    height:250px;
+    position:absolute;
+    margin-left:500px;
+    margin-top:-280px;
+}
+.anh_cay_but {
+    margin-top: 50px;
+    margin-left: 550px;
+    position: absolute;
+}
+/*right*/
+.ban_thich {
+    text-align: center;
+    font-size: 18px;
+    height: 30px;
+    width: 130px;
+    background-color: black;
+    color: azure;
+}
+
+.gc_thich {
+    border: 1px solid#000000;
+}
+
+.khuyen_dung {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    height: 30px;
+    width: 130px;
+    background-color: black;
+    color: azure;
+}
+
+.ah_khuyen_dung {
+    padding: 15px;
+}
+
+
+/*ket thuc right*/

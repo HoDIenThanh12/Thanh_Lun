@@ -1,0 +1,47 @@
+/*==Reset CSS==*/
+
+/*==Style cơ bản cho website==*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: blanchedalmond;
+}
+
+div#ndm {
+    width: 1310px;
+    background-color: aliceblue;
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+}
+
+div#ndm {
+    height: 80px;
+}
+
+.tk {
+    padding: -100px;
+    background-color: aqua;
+}
+/*phần đăng nhập với logo*/
+.imDangNhap {
+    margin-top: -80px;
+    margin-left: 143px;
+    height: 47px;
+}
+
+.dnp {
+    margin-top: -38px;
+    margin-left: 195px;
+}
+
+.logo {
+    height: 69px;
+    position: absolute;
+    margin: -16px 30px;
+    left: -16px;
+    top: 18px;
+    width: 119px;
+}
+

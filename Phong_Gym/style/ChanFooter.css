@@ -1,0 +1,66 @@
+﻿/*==Reset CSS==*/
+/*==Style cơ bản cho website==*/
+. {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container1 {
+        height: 320px;
+        width: 1346px;
+        background-color: #CC6;
+}
+
+.row {
+        margin-left: 300px;
+        width: 700px;
+    }
+.DC1{
+    margin-left:170px;
+}
+    .logo_chuyen {
+        text-align:right;
+        width:300px;
+        padding: 20px 00px;
+        margin-left:225px;
+    }
+
+    .dgc {
+        text-align: center;
+        width: 350px;
+        margin-left: 200px;
+        background-color: #F93;
+        border: 2px solid #C60;
+    }
+    .dgc2 {
+        margin-top:-10px;
+        text-align: center;
+        width: 500px;
+        border: 2px solid #C60;
+        margin-left:420px;
+    }
+.ky_hieu
+{
+    margin-top:-25px;
+    margin-left:250px;
+}
+
+    .lg_d {
+        margin-top: -300px;
+        margin-left: 40px;
+        height: 250px;
+        width: 277px;
+    }
+
+    .CS_TD {
+        margin-left:260px;
+    }
+
+    .nd {
+        text-align: center;
+    }
+.bocongthuong {
+        float: right;
+        margin-top: -100px;
+        margin-right: 100px;
+    }

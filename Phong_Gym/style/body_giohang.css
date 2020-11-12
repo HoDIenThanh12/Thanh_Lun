@@ -1,0 +1,18 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+section,aside{
+    display:table-cell;
+    vertical-align:top;
+}
+.nd_right{
+    border:2px solid#b6ff00;
+    width:800px;
+    height:500px;
+}
+.nd_left {
+    border: 2px solid#b6ff00;
+    width: 800px;
+    height: 500px;
+}

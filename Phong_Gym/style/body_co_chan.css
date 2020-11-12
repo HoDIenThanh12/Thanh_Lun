@@ -1,0 +1,73 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+.than_tap_co_chan
+{
+    margin:0px 50px;
+}
+section, aside {
+    display: table-cell;
+    vertical-align: top;
+}
+
+/*left*/
+.nd_left{
+   padding:10px;   
+    width:900px;
+}
+/*right*/
+.right{ 
+    width:300px;
+}
+
+.ban_thich{
+    text-align:center;
+    font-size:18px;
+    height:30px;
+    width:130px;
+    background-color:black;
+    color:azure;
+}
+.gc_thich{
+    border:1px solid#000000;
+}
+.khuyen_dung {
+    margin-top:10px;
+    text-align: center;
+    font-size: 18px;
+    height: 30px;
+    width: 130px;
+    background-color: black;
+    color: azure;
+}
+.ah_khuyen_dung {
+    padding: 15px;
+}
+table, tr, td {
+    color: brown;
+    padding: 5px 10px;
+}
+
+/*noi dung ben trong*/
+.chu_de{
+    padding:10px 0px;
+    color:darkmagenta;
+    font-size:30px;
+}
+ 
+.tsao_tdung {
+    color:#de5a0c;
+    font-size: 30px;
+}
+.nd_nguyen_do {
+    margin: 0px 30px;
+}
+.anh_leg
+{
+    text-align:center;
+}
+.nd_chinh
+{
+    font-size:20px;
+}

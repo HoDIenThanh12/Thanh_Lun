@@ -1,0 +1,343 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2B4FC8DF-EA09-466C-9805-EEC7665ACEE5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Phong_Gym</RootNamespace>
+    <AssemblyName>Phong_Gym</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.Resources.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="boostrap\header.css" />
+    <Content Include="boostrap\mneuDN.css" />
+    <Content Include="CoMong.aspx" />
+    <Content Include="Co_Bung.aspx" />
+    <Content Include="Co_Vai.aspx" />
+    <Content Include="DangKy1.aspx" />
+    <Content Include="GioHang.aspx" />
+    <Content Include="GioiThieu.aspx" />
+    <Content Include="image\24h\dang_ky_ngay.png" />
+    <Content Include="image\24h\mo_cua_24h.png" />
+    <Content Include="image\24h\web-1366-1-01-20201013101404-1.png" />
+    <Content Include="image\24h\web-1366-13-01-20201013101549.png" />
+    <Content Include="image\24h\web-1366-16-01-20201013102744.png" />
+    <Content Include="image\24h\web-1366-17-01-20201013102755.png" />
+    <Content Include="image\24h\web-1366-18-01-20201014040816.png" />
+    <Content Include="image\24h\web-1366-8-01-20201013101440-1.png" />
+    <Content Include="image\anh_chuc_nang\chon_mua_nn.gif" />
+    <Content Include="image\anh_co_the_ban_thich\hit_la_gi.png" />
+    <Content Include="image\anh_co_the_ban_thich\khuyen_dung.png" />
+    <Content Include="image\anh_co_the_ban_thich\lien_ket3_ban_co_thich.png" />
+    <Content Include="image\anh_co_the_ban_thich\lien_ket4_ban_co_thich.png" />
+    <Content Include="image\anh_co_the_ban_thich\lien_ket5_ban_co_thich.png" />
+    <Content Include="image\anh_co_the_ban_thich\Review_ban_co_thich.png" />
+    <Content Include="image\anh_noi_dung\cay_but.gif" />
+    <Content Include="image\anh_noi_dung\co_bung2.gif" />
+    <Content Include="image\anh_noi_dung\Co_mong.png" />
+    <Content Include="image\anh_noi_dung\Co_mong_1.png" />
+    <Content Include="image\anh_noi_dung\Co_vai1.png" />
+    <Content Include="image\anh_noi_dung\co_vai2.png" />
+    <Content Include="image\anh_noi_dung\co_vai3.png" />
+    <Content Include="image\anh_noi_dung\leg_press.png" />
+    <Content Include="image\anh_noi_dung\quy_lan_banh.png" />
+    <Content Include="image\anh_noi_dung\swapt_nhay_tai_cho.png" />
+    <Content Include="image\Anh_SP\chon_mua1.png" />
+    <Content Include="image\Anh_SP\chon_mua2.png" />
+    <Content Include="image\Anh_SP\chuoi.png" />
+    <Content Include="image\Anh_SP\combo_trail.png" />
+    <Content Include="image\Anh_SP\nuoc_loc_lavi.png" />
+    <Content Include="image\Anh_SP\pepsi.png" />
+    <Content Include="image\Anh_SP\San_Pham1.png" />
+    <Content Include="image\Anh_SP\tang_can.png" />
+    <Content Include="image\Anh_SP\tang_can_allmax.png" />
+    <Content Include="image\Anh_SP\tang_co.png" />
+    <Content Include="image\Anh_SP\tang_co1.png" />
+    <Content Include="image\Anh_SP\vien_sui.png" />
+    <Content Include="image\chon_mua_nn.gif" />
+    <Content Include="image\logo_day\goc_qc.png" />
+    <Content Include="image\logo_day\goc_qc2.png" />
+    <Content Include="image\logo_day\xem_them.png" />
+    <Content Include="image\logo_day\xem_them1.png" />
+    <Content Include="image\qc11.png" />
+    <Content Include="MatHang.aspx" />
+    <Content Include="scrip\web\css\font-awesome.min.css" />
+    <Content Include="scrip\web\css\style.css" />
+    <Content Include="scrip\web\images\banner.jpg" />
+    <Content Include="scrip\web\images\content.jpg" />
+    <Content Include="scrip\web\index.html" />
+    <Content Include="style\body_co_bung.css" />
+    <Content Include="style\body_co_chan.css" />
+    <Content Include="style\body_Co_Vai.css" />
+    <Content Include="style\body_giohang.css" />
+    <Content Include="style\Body_Mat_Hang.css" />
+    <Content Include="style\ChanFooter.css" />
+    <Content Include="style\gioithieu.css" />
+    <Content Include="style\test_ds.css" />
+    <Content Include="style\Thong_tin_kh.css" />
+    <Content Include="style\TRang_tap_co.css" />
+    <Content Include="ThongTinKhachHang.aspx" />
+    <Content Include="image\bgr2.png" />
+    <Content Include="image\bgr3.png" />
+    <Content Include="image\bgr4.png" />
+    <Content Include="image\brg5.png" />
+    <Content Include="image\chuyen_gia\chuyen_gia1.png" />
+    <Content Include="image\chuyen_gia\chuyen_gia_phuc_1.png" />
+    <Content Include="image\chuyen_gia\Jim_my.png" />
+    <Content Include="image\logo_day\lg_face.png" />
+    <Content Include="image\logo_day\lg_gm3.png" />
+    <Content Include="image\logo_day\lg_itgr.png" />
+    <Content Include="image\logo_day\lg_ytb1.png" />
+    <Content Include="image\logo_day\qc6.png" />
+    <Content Include="image\qc13.png" />
+    <Content Include="image\qc7.png" />
+    <Content Include="image\qc8.png" />
+    <Content Include="image\qc9.png" />
+    <Content Include="scrip\jquery-1.9.1.min.js" />
+    <Content Include="scrip\Slider.js" />
+    <Content Include="bootstrapDN\bootstrap.css" />
+    <Content Include="bootstrapDN\bootstrap.min.js" />
+    <Content Include="bootstrapDN\jquery-1.10.2.min.js" />
+    <Content Include="Global.asax" />
+    <Content Include="image\bgr_dn.png" />
+    <Content Include="image\dangnhap.jpg" />
+    <Content Include="image\logoHeader.png" />
+    <Content Include="image\qc1.png" />
+    <Content Include="image\qc2.png" />
+    <Content Include="image\qc3.png" />
+    <Content Include="image\qc4.png" />
+    <Content Include="image\qc5.png" />
+    <Content Include="Properties\bgr_dn.png" />
+    <Content Include="style\body1.css" />
+    <Content Include="style\css_chan.css" />
+    <Content Include="style\hder1.css" />
+    <Content Include="style\MenuMasterpage.css" />
+    <Content Include="style\mnu1.css" />
+    <Content Include="TrangChu6.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="CoChan.aspx" />
+    <Content Include="WebForm3.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CoMong.aspx.cs">
+      <DependentUpon>CoMong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoMong.aspx.designer.cs">
+      <DependentUpon>CoMong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Co_Bung.aspx.cs">
+      <DependentUpon>Co_Bung.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Co_Bung.aspx.designer.cs">
+      <DependentUpon>Co_Bung.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Co_Vai.aspx.cs">
+      <DependentUpon>Co_Vai.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Co_Vai.aspx.designer.cs">
+      <DependentUpon>Co_Vai.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DangKy1.aspx.cs">
+      <DependentUpon>DangKy1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangKy1.aspx.designer.cs">
+      <DependentUpon>DangKy1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Footer.master.cs">
+      <DependentUpon>Footer.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Footer.master.designer.cs">
+      <DependentUpon>Footer.master</DependentUpon>
+    </Compile>
+    <Compile Include="GioHang.aspx.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GioHang.aspx.designer.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GioiThieu.aspx.cs">
+      <DependentUpon>GioiThieu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GioiThieu.aspx.designer.cs">
+      <DependentUpon>GioiThieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KetNoi.cs" />
+    <Compile Include="MatHang.aspx.cs">
+      <DependentUpon>MatHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MatHang.aspx.designer.cs">
+      <DependentUpon>MatHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTinKhachHang.aspx.cs">
+      <DependentUpon>ThongTinKhachHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThongTinKhachHang.aspx.designer.cs">
+      <DependentUpon>ThongTinKhachHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="NguoiDung.Master.cs">
+      <DependentUpon>NguoiDung.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NguoiDung.Master.designer.cs">
+      <DependentUpon>NguoiDung.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrangChu6.aspx.cs">
+      <DependentUpon>TrangChu6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu6.aspx.designer.cs">
+      <DependentUpon>TrangChu6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CoChan.aspx.cs">
+      <DependentUpon>CoChan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoChan.aspx.designer.cs">
+      <DependentUpon>CoChan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XLDL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NguoiDung.Master" />
+    <Content Include="Footer.master" />
+    <None Include="packages.config" />
+    <Content Include="scrip\web\fonts\fontawesome-webfont.ttf" />
+    <Content Include="scrip\web\fonts\fontawesome-webfont.woff" />
+    <Content Include="scrip\web\fonts\fontawesome-webfont.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49886</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49886/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
